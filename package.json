@@ -1,0 +1,28 @@
+{
+  "name": "flights",
+  "version": "1.0.0",
+  "description": "Flight system backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimani-dev/flight-tracker.git"
+  },
+  "author": "David Kimani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimani-dev/flight-tracker/issues"
+  },
+  "homepage": "https://github.com/kimani-dev/flight-tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "joi": "^17.11.0",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0"
+  }
+}

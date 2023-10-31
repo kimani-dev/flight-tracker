@@ -1,0 +1,27 @@
+### Create Airline
+POST http://localhost:3000/airline
+Content-Type: application/json
+
+{
+    "name": "Lufthansa"
+}
+
+### Get Airlines
+GET http://localhost:3000/airline
+Content-Type: application/json
+
+
+### Create Flight
+POST http://localhost:3000/flight
+Content-Type: application/json
+
+{
+    "date": "2023-10-31",
+    "from": "Jommo Kenyatta Internatinal Airport",
+    "to": "Cairo International Airport",
+    "airline": "6540fe303b99f25b4176eeb4"
+}
+
+### Get flights
+GET http://localhost:3000/flight
+Content-Type: application/json
